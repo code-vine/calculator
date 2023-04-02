@@ -6,8 +6,8 @@ class Calculator extends React.Component{
         return (
             <div className='calculator-div'>
                 <div id="display">
-                    <p className='display-calculation'>1/2+3</p>
-                    <p className='display-current'>0</p>
+                    <div className='display-calculation'>1/2+3</div>
+                    <div className='display-current'>0</div>
                 </div>
                 <div className='keypad'>
                     <div className='operators'>

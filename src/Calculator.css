@@ -25,18 +25,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
     margin:20px auto;
     width: 90%;
-    height: 15%;
     border: 3px solid red;
     font-size: 1.75rem;
-    padding: 10px;
+    padding:0 10px;
     font-family: Digital; 
 }
 
 .display-calculation{
     font-size: 1rem;
-    margin-bottom: 5px;
+    margin:0;
 }
 
