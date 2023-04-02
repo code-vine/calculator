@@ -10,25 +10,33 @@ class Calculator extends React.Component{
                     <div className='display-current'>0</div>
                 </div>
                 <div className='keypad'>
-                    <div className='operators'>
-                        <div id="clear">C</div>
-                        <div id="divide">/</div>
-                        <div id="multiply">*</div>
-                        <div id="subtract">-</div>
-                        <div id="add">+</div>
-                        <div id="equals">=</div>
+                    <div className='row w-100'>
+                        <div className='col key' id="clear">C</div>
+                        <div className='col-3 key operator' id="divide">/</div>
                     </div>
-                    <div className='numbers'>
-                        <div id="nine">9</div>
-                        <div id="eight">8</div>
-                        <div id="seven">7</div>
-                        <div id="six">6</div>
-                        <div id="five">5</div>
-                        <div id="four">4</div>
-                        <div id="three">3</div>
-                        <div id="two">2</div>
-                        <div id="one">1</div>
-                        <div id="zero">0</div>
+                    <div className='row w-100'>
+                        <div className='col key' id="seven">7</div>
+                        <div className='col key' id="eight">8</div>
+                        <div className='col key' id="nine">9</div>
+                        <div className='col-3 key operator' id="multiply">x</div>
+                    </div>
+                    <div className='row w-100'>
+                        <div className='col key' id="four">4</div>
+                        <div className='col key' id="five">5</div>
+                        <div className='col key' id="six">6</div>
+                        <div className='col key operator' id="subtract">-</div>
+                    </div>
+                    <div className='row w-100'>
+                        <div className='col key' id="one">1</div>
+                        <div className='col key' id="two">2</div>
+                        <div className='col key' id="three">3</div>
+                        <div className='col key operator' id="add">+</div>
+                    </div>
+                    <div className='row w-100'>
+                        <div className='col key' id="negate">+/-</div>
+                        <div className='col key' id="zero">0</div>
+                        <div className='col key' id="decimal">.</div>
+                        <div className='col key operator' id="equals">=</div>
                     </div>
                     
                 </div>
