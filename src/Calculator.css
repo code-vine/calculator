@@ -16,9 +16,12 @@
 
 .calculator-div{
     background-color: black;
-    width: 23%;
-    height:65%;
+    width: 23vw;
+    height: fit-content;
     color: white;
+    padding-bottom: 2vh;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
 #clear{
@@ -29,21 +32,23 @@
     background-color: rgb(78, 155, 78);
 }
 
-#display{
+#main-display{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin:20px auto;
+    margin:2vh auto;
     width: 90%;
-    border: 3px solid gray;
+    border: 3px solid darkgray;
+    background-color: gray;
     font-size: 1.75rem;
-    padding:0 10px;
+    padding:0 1vw;
     font-family: Digital; 
 }
 
 .display-calculation{
     font-size: 1rem;
     margin:0;
+    color:rgb(127, 249, 127);
 }
 
 .keypad{
@@ -52,8 +57,9 @@
     justify-content: center;
     align-items: center;
     width:90%;
-    height: 70%;
+    height: 40vh;
     margin:auto;
+    border: 4px solid darkgray;
 }
 
 .key{
